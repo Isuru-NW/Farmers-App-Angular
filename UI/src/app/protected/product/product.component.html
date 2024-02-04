@@ -1,0 +1,24 @@
+
+<div class="alignment">
+  <div class="search">
+    <!-- <input type="text" [(ngModel)]="searchTerm" placeholder="Search by type" (input)="applyFilter()" /> -->
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search by type" (input)="applyFilter()" />
+  </div>
+
+<div class="grid-container">
+  
+  <div *ngFor="let product of paginatedProducts" class="grid-item">
+    <img [src]="product.image" alt="{{ product.name }}" />
+    <h3>{{ product.name }}</h3>
+    <p>Price: {{ product.price | currency }}</p>
+    <p>Type: {{ product.type }}</p>
+    <!-- Additional product information can be added here -->
+  </div>
+</div>
+
+<div class="pagination">
+  <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
+  <span>{{ currentPage }}</span>
+  <button (click)="nextPage()" [disabled]="currentPage * itemsPerPage >= products.length">Next</button>
+</div>
+</div>

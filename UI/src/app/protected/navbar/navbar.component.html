@@ -1,0 +1,33 @@
+<mat-sidenav-container class="container" autosize>
+  <!-- Side Navigation -->
+  <mat-sidenav [opened]="true" mode="side">
+    <mat-nav-list>
+      <a mat-list-item>
+        <span class="entry">
+          <mat-icon>house</mat-icon>
+          <span>Dashboard</span>
+        </span>
+      </a>
+      <a mat-list-item>
+        <span class="entry">
+          <mat-icon>gavel</mat-icon>
+          <span>Bid Menu</span>
+        </span>
+      </a>
+      <a mat-list-item>
+        <span class="entry">
+          <mat-icon>store</mat-icon>
+          <span>Products</span>
+        </span>
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div>
+      <app-product></app-product>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+  

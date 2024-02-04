@@ -1,0 +1,28 @@
+// header.component.scss
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #a4d3a4; 
+    color: #333;
+  }
+
+  .logo img {
+    height: 50px;
+    width: 90px;
+    padding-left: 40%;
+    padding-top: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  
+    button {
+      color: #fff;
+      margin-right: 10px;  // Add some spacing between buttons
+    }
+  }
+  

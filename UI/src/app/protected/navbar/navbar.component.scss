@@ -1,0 +1,36 @@
+mat-toolbar{
+    position:fixed;
+    top:0;
+    z-index: 2;
+}
+
+mat-sidenav-container {
+    height:750px;
+}
+
+// Move the content down so that it won't be hidden by the toolbar
+mat-sidenav {
+    padding-top: 3.5rem;
+    width: 180px;
+    background-color: #c0c0c0;  // Ash color (light gray)
+    color: #333;  // Dark text color
+    height: auto;
+
+    .entry{
+        display: flex;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    .entry mat-icon {
+        margin-right: 12px; /* Adjust the margin as needed */
+      }
+  }
+
+// Move the content down so that it won't be hidden by the toolbar
+mat-sidenav-content{
+    padding-top: 3.5rem;
+}

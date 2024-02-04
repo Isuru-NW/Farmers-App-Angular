@@ -1,0 +1,95 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+
+
+/* Add border to the surrounding div */
+div {
+  // border: 1px solid lightgreen;
+  padding: 10px;
+}
+
+/* Add light green color to the link */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  // background-color: lightgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Add hover effect for better user experience */
+a:hover {
+  background-color: mediumseagreen;
+}
+
+/* Add green color to the link */
+a {
+  color: mediumseagreen;
+}
+
+/* Add green background to the buttons */
+.button button,
+.button a {
+  background-color: mediumseagreen;
+  color: white;
+}
+
+/* Add hover effect for better user experience */
+.button button:hover,
+.button a:hover {
+  background-color: mediumseagreen;
+}
+
+/* Add green border to the input fields */
+mat-form-field input {
+  border-color: mediumseagreen;
+}
+
+/* Add red color to error messages */
+mat-error {
+  color: red;
+}
+
+mat-card {
+  max-width: 600px;
+
+  mat-card-title,
+  mat-card-content {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .mat-form-field {
+        width: 100%;
+        min-width: 300px;
+      }
+
+      .error {
+        padding: 16px;
+        width: 300px;
+        color: red; /* Change the color to red */
+        background-color: #f8d7da; /* Light red background color */
+        border: 1px solid #f5c6cb; /* Light red border color */
+        border-radius: 5px;
+      }
+
+      .button {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      
+    }
+  }
+}
+
+
+/* Add space between Register and Login buttons */
+.button a {
+  margin-right: 10px; /* Adjust the margin as needed */
+}

@@ -1,0 +1,25 @@
+// SCSS
+
+.farm-mart-footer {
+    background-color: #a4d3a4;  // Light green background
+    color: #333;  // Dark text color
+    padding: 10px 0;
+    // margin-top: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    .middle {
+      font-size: 18px;
+      text-align: center;
+      padding-left: 9%;
+      padding-right: 9%;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    p {
+      margin-bottom: 19px;
+    }
+  }
+  
